@@ -18,8 +18,6 @@
 char user_name[BUF_SIZE];
 
 // password checker
-// not safe, stuff is in plain text
-// should benefit from using hashes
 int pass_auth(char *pass, char *input)
 {
     if (cmp(pass, input))
